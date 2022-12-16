@@ -24,7 +24,7 @@ section.container{
 header{
     width: 100%;
     padding: 0 2%;
-    background-color: rgb(5, 5, 93);
+    background-color: rgb(9, 9, 126);
 }
 
 .top-menu{
@@ -51,12 +51,12 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 20px;
+    margin: 0 35px;
     list-style-type: none;
 }
 
 nav ul li a{
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -66,15 +66,81 @@ nav ul li a{
 
 nav ul li a:hover{
     color: azure;
-    transform: rotateY(10deg);
+    transform: ;
 
 }
 
 .box-text{
-    width: 400px;
+    width: 340px;
     height: 320px;
     background-color: rgb(119, 150, 173);
     margin-left: 50px;
     position: absolute;
-    top: 400px;
+    top: 522px;
+    -webkit-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+    -moz-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+     box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+    
 }
+
+.box-text .box1{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: -20px;
+    background-color: rgb(38, 38, 231);
+    
+}
+
+
+.box-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.box-text > span{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+.box-text .box2{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    background-color: white;
+
+}
+
+.container input{
+    width: 20%;
+    padding: 20px 25px;
+    position: absolute;
+    right: 20px;
+    top: 580px;
+    border: 0 solid ;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(37, 37, 233);
+    -webkit-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+    -moz-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+     box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+     transition: 0.4s;
+     cursor: pointer;
+}
+
+.container input:hover{
+    background-color: rgb(8, 8, 106);
+}
+
+
