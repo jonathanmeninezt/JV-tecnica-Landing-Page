@@ -24,7 +24,7 @@ section.container{
 header{
     width: 100%;
     padding: 0 2%;
-    background-color: rgb(89, 89, 197);
+    background-color: rgb(5, 5, 93);
 }
 
 .top-menu{
@@ -32,6 +32,12 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 150px;
+}
+
+.top-menu img{
+    width: 9em;
+    height: 7em;
 }
 
 nav{
@@ -55,8 +61,20 @@ nav ul li a{
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     transition: 0.4s;
+    color: gray;
 }
 
 nav ul li a:hover{
     color: azure;
+    transform: rotateY(10deg);
+
+}
+
+.box-text{
+    width: 400px;
+    height: 320px;
+    background-color: rgb(119, 150, 173);
+    margin-left: 50px;
+    position: absolute;
+    top: 400px;
 }
