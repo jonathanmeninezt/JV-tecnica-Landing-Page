@@ -40,22 +40,22 @@ header{
     height: 7em;
 }
 
-nav{
+nav.menu-desktop{
     padding: 15px 0;
 }
 
-nav ul{
+nav.menu-desktop ul{
     display: flex;
 
     
 }
 
-nav ul li{
+nav.menu-desktop ul li{
     margin: 0 35px;
     list-style-type: none;
 }
 
-nav ul li a{
+nav.menu-desktop ul li a{
     font-size: 21px;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
@@ -64,14 +64,29 @@ nav ul li a{
     color: gray;
 }
 
-nav ul li a:hover{
+nav.menu-desktop ul li a:hover{
     color: azure;
-    transform: ;
+    
 
 }
 
 nav.menu-mobile{
+    width: 100px;
+    height:5px ;
+    background-color: white;
+}
+
+nav.menu-mobile ul{
+    margin: 0 10px;
+}
+
+nav.menu-mobile ul li{
+    list-style-type: none;
+}
+
+nav.menu-mobile ul li a{
     display: none;
+    text-decoration: none;
 }
 
 .box-text{
