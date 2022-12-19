@@ -51,14 +51,14 @@ nav.menu-desktop ul{
 }
 
 nav.menu-desktop ul li{
-    margin: 0 35px;
+    margin: 0 45px;
     list-style-type: none;
 }
 
 nav.menu-desktop ul li a{
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     transition: 0.4s;
     color: gray;
@@ -148,6 +148,8 @@ nav.menu-mobile > i:hover{
     margin-left: 30px;
 }
 
+
+
 .box-text > span{
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -233,6 +235,11 @@ nav.menu-mobile > i:hover{
     margin-left: 0px;
 } 
 
+.service-img img.img-1{
+    width: 25em;
+    height: 6em;    
+}
+
 .service-text{
     width: 100%;
     height: 300px;
@@ -253,12 +260,14 @@ nav.menu-mobile > i:hover{
     font-weight: lighter;
     margin-top: 40px;
     margin-bottom: 15px;
+    color: black;
     
 }
 
-.service-text > span{
-    margin-left: 500px;
+.service-text > h6{
+    text-align: center;
     font-size: 13px;
+    color: gray;
    
    
 }
@@ -283,6 +292,12 @@ nav.menu-mobile > i:hover{
     margin-left: 0px;
 } 
 
+.service-img2 img.img-2{
+    width: 20em;
+    height: 10em;
+    margin-left:150px ;
+}
+
 .service-text2{
     width: 100%;
     height: 300px;
@@ -303,16 +318,26 @@ nav.menu-mobile > i:hover{
     font-weight: lighter;
     margin-top: 40px;
     margin-bottom: 15px;
+    color: black;
     
 }
 
-.service-text2 > span{
-    margin-left: 500px;
+.service-text2 > h6{
+   text-align: center;
     font-size: 13px;
+    color: gray;
    
    
 }
 
+
+
+
+
+
+
+
+/***************MODO RESPONSIVO**************/
 
 @media screen and (max-width:1253px){
     .container input{
@@ -344,12 +369,36 @@ nav.menu-mobile > i:hover{
     }
 }
 
+
+@media screen and (max-width:1078px){
+    .service-img img.img-1{
+        width: 20em;
+        height: 6em;  
+        margin-right: 150px;
+
+    }
+    .service-text h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
+    .service-text2 h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
+}
+
 @media screen and (max-width:883px){
     .container input{
         position: absolute;
-        right: 90px;
+        right: 350px;
         top: 440px;
-        width:56%;
+        width:36%;
         height: 10%;
         padding: 20px 25px;
         display: block;
@@ -359,7 +408,7 @@ nav.menu-mobile > i:hover{
     }
     .container button{
         position: absolute;
-        right: 90px;
+        right: 350px;
         top: 440px;
         height: 10%;
         border-radius: 50%;
@@ -385,40 +434,136 @@ nav.menu-mobile > i:hover{
         display: none;
      }
      
-nav.menu-mobile ul{
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 150px;
-    background-color: white;
-    border-top: 2px solid black;
-    display: block;
+     nav.menu-mobile ul{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 150px;
+        background-color: white;
+        border-top: 2px solid black;
+        display: block;
     
 }
 
-nav.menu-mobile ul li a{
-    font-size: 22px;
-    text-decoration: none;
-    transition: 0.3s;
-    display: block;
+     nav.menu-mobile ul li a{
+        font-size: 22px;
+        text-decoration: none;
+        transition: 0.3s;
+        display: block;
+        
+}
+
+    nav.menu-mobile > i{
+        cursor: pointer;
+        font-size: 27px;
+        color: black;
+        transition: 0.7s;
+        display: flex;
+        display: flex;
+        display: flex;
+        display: flex;
     
 }
 
-nav.menu-mobile > i{
-    cursor: pointer;
-    font-size: 27px;
-    color: black;
-    transition: 0.7s;
-    display: flex;
-    display: flex;
-    display: flex;
-    display: flexsmg;
+    nav.menu-mobile > i:hover{
+        cursor: pointer;
+        color: white;
+    }
+    .service-text h2{
+        text-align: center;
+        font-size: 39px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
+    .service-text2 h2{
+        text-align: center;
+        font-size: 39px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
+    .service-img{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+    }
+    .service-img img{
+        width: 42em;
+        height: 28em;
+       
+        
+        
+    }
+    .service-img img.img-1{
+        width: 25em;
+        height: 6em;
+        margin: 0 auto; 
+        
+         
+    } 
+
+
+    .service-img2{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .service-img2 img{
+        width: 45em;
+        height: 27em;
+       
+    } 
     
+    .service-img2 img.img-2{
+        width: 20em;
+        height: 10em;
+        margin: 0 auto;
+    }
+
 }
 
-nav.menu-mobile > i:hover{
-    cursor: pointer;
-    color: white;
-}
+@media screen and (max-width:758px){
+    .container input{
+        position: absolute;
+        right: 80px;
+        top: 440px;
+        width:55%;
+        height: 10%;
+        padding: 20px 25px;
+        display: block;
+        border: 0 solid ;
+        text-align: center;
+        
+    }
+    .container button{
+        position: absolute;
+        right: 80px;
+        top: 440px;
+        height: 10%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background: none;
+        text-align: center;
+        
+     } 
 
-}
+     .service-text h2{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
+    .service-text2 h2{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 80px;
+        color: white;
+    }
