@@ -11,7 +11,6 @@
 <body>
     <section class="container">
         <header>
-            <div class="center">
                 <div class="top-menu">
                     <img src="img/logo.png">
                 <nav class="menu-desktop">
@@ -22,16 +21,18 @@
                         <li><a href="">Contatos</a></li>
                     </ul>
                 </nav><!--desktop-->
-                <nav class="menu-mobile>">
+
+                <nav class="menu-mobile">
+                    <i class="fa fa-bars"></i>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Home</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Informações</a></li>
+                        <li><a href="">Contatos</a></li>
                     </ul>
-                </nav><!--menu--menu-mobile-->
+                </nav><!--menu-mobile-->
             </div><!--top-menu-->
-            </div><!--center-->
+            
         </header>
     </section><!--container-->
 
@@ -40,19 +41,33 @@
             <div class="box-text">
                 <div class="box1"></div>
                 <h2>A sua Lava e Seca quebrou?</h2>
-                <span>Nós somos da JV Técnica, especializados em Lava e Seca da marca LG e Samsung.</span>
+                <span> Podemos te ajudar! Somos da JV Técnica, especializados em Lava e Seca da marca LG e Samsung.</span>
                 <div class="box2"></div>
             </div><!--box-text-->
-            <input type="submit"  value="Envie uma Mensagem">
-            <i class="fa-brands fa-whatsapp"></i>
+            <input type="submit" value="Envie uma Mensagem"/>
+            <button type="submit"><i class="fa-brands fa-whatsapp"></i></button>
         </div><!--center-->
     </section><!--container-->
 
     <section class="container" style="background-color:aqua; height: 500px;">
         <div class="center">
-
+            <div class="service-box">
+                <img src="img/sg.webp"
+                <h2>Conserte ou faça a manutenção da sua Lava e Seca, sem sair de casa!</h2>
+                <p>Atendemos em todas as regiões do estado de SãoPaulo, nossos técnicos vão até 
+                você, faxendotodo o serviço sem a necessidade de sair da sua casa.</p>
+                <span>* De acordo com a região, poderão ser cobradas taxas de visita.</span>
+            </div><!--service-box-->
         </div><!--center-->
     </section><!--container-->
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        $('nav.menu-mobile > i').click(function(){
+            $(this).parent().find('ul:not(.menu-mobile)').slideToggle();
+
+        });
+    </script>
     
 </body>
 </html>

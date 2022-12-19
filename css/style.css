@@ -35,7 +35,7 @@ header{
     height: 150px;
 }
 
-.top-menu img{
+ img{
     width: 9em;
     height: 7em;
 }
@@ -66,36 +66,64 @@ nav.menu-desktop ul li a{
 
 nav.menu-desktop ul li a:hover{
     color: azure;
-    
-
 }
 
 nav.menu-mobile{
-    width: 100px;
-    height:5px ;
-    background-color: white;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 nav.menu-mobile ul{
-    margin: 0 10px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 150px;
+    background-color: white;
+    border-top: 2px solid black;
+    display: none;
 }
 
 nav.menu-mobile ul li{
+    text-align: center;
+    margin-top: 10px;
     list-style-type: none;
+    border-bottom: 1px solid black;
+
 }
 
 nav.menu-mobile ul li a{
-    display: none;
+    font-size: 22px;
     text-decoration: none;
+    transition: 0.3s;
+    display: none;
 }
 
+nav.menu-mobile ul li a:hover{
+    color: blue;
+}
+
+nav.menu-mobile > i{
+    cursor: pointer;
+    font-size: 27px;
+    color: black;
+    transition: 0.7s;
+    display: none;
+}
+
+nav.menu-mobile > i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
 .box-text{
-    width: 380px;
-    height: 320px;
+    width: 400px;
+    height: 330px;
     background-color: rgb(119, 150, 173);
     margin-left: 50px;
     position: absolute;
-    top: 522px;
+    top: 500px;
     -webkit-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
     -moz-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
      box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
@@ -113,7 +141,7 @@ nav.menu-mobile ul li a{
 
 
 .box-text h2{
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 50px;
@@ -121,7 +149,7 @@ nav.menu-mobile ul li a{
 }
 
 .box-text > span{
-    font-size: 17px;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     top: 200px;
@@ -132,15 +160,17 @@ nav.menu-mobile ul li a{
     width: 80px;
     height: 70px;
     position: absolute;
-    bottom: -10px;
+    bottom: -12px;
     right: 0px;
     background-color: white;
 
 }
 
 .container input{
-    width: 20%;
+    width: 21%;
+    height: 10%;
     padding: 20px 25px;
+    display: block;
     position: absolute;
     right: 20px;
     top: 580px;
@@ -162,8 +192,143 @@ nav.menu-mobile ul li a{
     background-color: rgb(8, 8, 106);
 }
 
-.container input i{
-    color: black;
+.container button{
+    position: absolute;
+    right: 20px;
+    top: 580px;
+    height: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    
 }
 
+.container button i{
+    font-size: 25px;
+    color: white;
+    margin-right: 13px;
+}
 
+.container button i:hover{
+    color: white;
+}
+
+.service-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.service-box 
+
+@media screen and (max-width:1253px){
+    .container input{
+        position: absolute;
+        right: 100px;
+        top: 580px;
+        width: 29%;
+        height: 10%;
+        padding: 20px 25px;
+        display: block;
+        border: 0 solid ;
+        
+    }
+    .container button{
+        position: absolute;
+        right: 100px;
+        top: 580px;
+        height: 10%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background: none;
+        
+     }
+     .container button i{
+        font-size: 25px;
+        color: white;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:883px){
+    .container input{
+        position: absolute;
+        right: 90px;
+        top: 440px;
+        width:56%;
+        height: 10%;
+        padding: 20px 25px;
+        display: block;
+        border: 0 solid ;
+        text-align: center;
+        
+    }
+    .container button{
+        position: absolute;
+        right: 90px;
+        top: 440px;
+        height: 10%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background: none;
+        text-align: center;
+        
+     } 
+     .box-text{
+        width: 400px;
+        height: 330px;
+        background-color: rgb(119, 150, 173);
+        margin-left: 50px;
+        position: absolute;
+        top: 530px;
+        -webkit-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+        -moz-box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+         box-shadow: 3px 7px 14px 8px rgba(0,0,0,0.64);
+        
+     }
+     nav.menu-desktop{
+        display: none;
+     }
+     
+nav.menu-mobile ul{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 150px;
+    background-color: white;
+    border-top: 2px solid black;
+    display: block;
+    
+}
+
+nav.menu-mobile ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    
+}
+
+nav.menu-mobile > i{
+    cursor: pointer;
+    font-size: 27px;
+    color: black;
+    transition: 0.7s;
+    display: flex;
+    display: flex;
+    display: flex;
+    display: flexsmg;
+    
+}
+
+nav.menu-mobile > i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+}
