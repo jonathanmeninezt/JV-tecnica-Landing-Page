@@ -24,7 +24,7 @@ section.container{
 header{
     width: 100%;
     padding: 0 2%;
-    background-color: rgb(9, 9, 126);
+    background-color: rgb(30, 30, 116);
 }
 
 .top-menu{
@@ -214,15 +214,105 @@ nav.menu-mobile > i:hover{
     color: white;
 }
 
-.service-box{
+.center-box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.service-img{
+    width: 100%;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 500px;
 }
 
-.service-box 
+.service-img img{
+    width: 42em;
+    height: 28em;
+    margin-left: 0px;
+} 
+
+.service-text{
+    width: 100%;
+    height: 300px;
+
+    
+}
+
+.service-text h2{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 600;
+    margin-top: 80px;
+    color: white;
+}
+.service-text p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+
+.service-text > span{
+    margin-left: 500px;
+    font-size: 13px;
+   
+   
+}
+
+.center-box2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.service-img2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.service-img2 img{
+    width: 45em;
+    height: 27em;
+    margin-left: 0px;
+} 
+
+.service-text2{
+    width: 100%;
+    height: 300px;
+
+    
+}
+
+.service-text2 h2{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 600;
+    margin-top: 80px;
+    color: white;
+}
+.service-text2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+
+.service-text2 > span{
+    margin-left: 500px;
+    font-size: 13px;
+   
+   
+}
+
 
 @media screen and (max-width:1253px){
     .container input{
