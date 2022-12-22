@@ -347,15 +347,6 @@ nav.menu-mobile > i:hover{
     
 }
 
-.service-text2 > h4{
-   text-align: center;
-    font-size: 13px;
-    color: gray;
-   
-   
-}
-
-
 
 /* ************Serviços início************* */
 
@@ -659,6 +650,118 @@ footer h2{
     }
 }
 
+@media screen and (max-width:923px){
+    
+    .big-box .box1{
+        width: 8em;
+        height: 8em;
+        background-color: rgb(8, 8, 106);
+        border: rgb(8, 8, 106);
+        text-align: center;
+        vertical-align: center;
+        
+        
+    
+    }
+    
+    .big-box .box2{
+        width: 8em;
+        height: 8em;
+        background-color: rgb(8, 8, 106);;
+        border: rgb(8, 8, 106);
+        text-align: center;
+    
+    }
+    
+    .big-box .box3{
+        width: 8em;
+        height: 8em;
+        background-color: rgb(8, 8, 106);;
+        border: rgb(8, 8, 106);;
+        text-align: center;
+    
+    }
+    
+    .big-box .box4{
+        width: 8em;
+        height: 8em;
+        background-color: rgb(8, 8, 106);;
+        border: rgb(8, 8, 106);
+        text-align: center;
+    
+    }
+    .box1 i{
+        margin-top: 40px;
+        font-size: 46px;
+        color: white ;
+        transition: 0.7s;   
+    }
+    .box1 i:hover{
+        color: rgb(73, 66, 255);   
+    }
+    
+    
+    .box2 i{
+        margin-top: 40px;
+        font-size: 46px;
+        color: white ;
+        transition: 0.7s;   
+    }
+    .box2 i:hover{
+        color: rgb(73, 66, 255);   
+    }
+    
+    
+    .box3 i{
+        margin-top: 40px;
+        font-size: 46px;
+        color: white ;
+        transition: 0.7s;    
+    }
+    .box3 i:hover{
+        color: rgb(73, 66, 255);    
+    }
+    
+    
+    
+    .box4 i{
+        margin-top: 40px;
+        font-size: 46px;
+        color: white ;
+        transition: 0.7s;    
+    }
+    .box4 i:hover{
+        color: rgb(73, 66, 255);    
+    }
+    
+    
+    
+    .box1 > h2{
+        font-size: 23px;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 60px;
+    }
+    .box2 > h2{
+        font-size: 23px;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 60px;
+    }
+    .box3 > h2{
+        font-size: 23px;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 60px;
+    }
+    .box4 > h2{
+        font-size: 23px;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width:883px){
     .container input{
         position: absolute;
@@ -790,6 +893,11 @@ footer h2{
         height: 10em;
         margin: 0 auto;
     }
+    .big-box{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       margin-left: 60px;
+          
 
 }
 
