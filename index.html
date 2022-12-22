@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JV Tecnica</title>
     <script src="https://kit.fontawesome.com/0537ae62fc.js" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet"/>
-</head>
-<body>
+ </head>
+ <body>
     <section class="container">
         <header>
                 <div class="top-menu">
@@ -16,8 +16,8 @@
                 <nav class="menu-desktop">
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Serviços</a></li>
                         <li><a href="">Informações</a></li>
+                        <li><a href="">Serviços</a></li>
                         <li><a href="">Contatos</a></li>
                     </ul>
                 </nav><!--desktop-->
@@ -26,8 +26,8 @@
                     <i class="fa fa-bars"></i>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Serviços</a></li>
                         <li><a href="">Informações</a></li>
+                        <li><a href="">Serviços</a></li>
                         <li><a href="">Contatos</a></li>
                     </ul>
                 </nav><!--menu-mobile-->
@@ -35,6 +35,7 @@
             
         </header>
     </section><!--container-->
+
 
     <section class="container" style="background-image: url('img/manute.png');background-size: 100% 100%; background-repeat: no-repeat;background-position: center; width: 100%;height: 740px;">
         <div class="center">
@@ -44,7 +45,7 @@
                 <span> Podemos te ajudar! Somos da JV Técnica, especializados em Lava e Seca da marca LG e Samsung.</span>
                 <div class="box2"></div>
             </div><!--box-text-->
-            <input type="submit" value="Envie uma Mensagem"/>
+            <input class="botao" type="submit" value="Envie uma Mensagem"/>
             <button type="submit"><i class="fa-brands fa-whatsapp"></i></button>
         </div><!--center-->
     </section><!--container-->
@@ -59,7 +60,7 @@
                 <h2>Conserte ou faça manutenção da sua Lava e Seca, sem sair de casa!</h2>
                 <p>Atendemos em todas as regiões do estado de SãoPaulo, nossos técnicos vão até 
                 você,<br> fazendo todo o serviço sem a necessidade de sair da sua casa.</p>
-                <h6>* De acordo com a região, poderão ser cobradas taxas de visita.</h6>
+                <h4>* De acordo com a região, poderão ser cobradas taxas de visita.</h4>
             </div><!--service-text-->
         </div><!--center-box-->
     </section><!--container-->
@@ -72,9 +73,11 @@
             </div><!--service-img2-->
             <div class="service-text2">
                 <h2>Assistência técnica especializada em Máquinas Lava e Seca LG!</h2>
-                <p>Atendemos em todas as regiões do estado de SãoPaulo, nossos técnicos vão até 
-                você,<br> fazendo todo o serviço sem a necessidade de sair da sua casa.</p>
-                <h6>* De acordo com a região, poderão ser cobradas taxas de visita.</h6>
+                <p>Com uma equipe de ampla experiência, realizamos serviços de instalação, conserto e manutenção<br> 
+                    de máquinas lava e seca, das principais marcas e modelos do mercado.<br> <br>Somos especialistas em solucionar quaisquer problemas que a sua máquina<br> 
+                    apresentar, com qualidade e agilidade, sem você sair de casa!
+                 </p>
+                
             </div><!--service-text2-->
         </div><!--center-box2-->
     </section><!--container2-->
@@ -102,25 +105,22 @@
     <footer>
         <div class="center">
             <h2>Contatos</h2>
-            <img src="img/jvtecnica.jpg">
-            <div class="end-page">
-            <span>Rua Júlio Paskevics, 46- Parque Santa Teresa, Carapicuíba - SP</span>
-            <span>jvtecnicassitencia@gmail.com</span>
-            <span>(11)4303-3840</span>
-            <span>(11)9 9222-3789</span>
-            </div><!--end-page-->
+            <img src="img/logo.png">
+                <div class="end-page">
+                    <span><i class="fa-solid fa-location-dot"></i>Rua Júlio Paskevics, 46- Parque Santa Teresa, Carapicuíba - SP</span>
+                    <span><i class="fa-solid fa-envelope"></i>jvtecnicassitencia@gmail.com</span>
+                    <span><i class="fa-solid fa-phone"></i>(11)4303-3840</span>
+                    <span><i class="fa-brands fa-whatsapp"></i>(11)9 9222-3789</span>
+                </div><!--end-page-->
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div><!--icons-->    
         </div><!--center-->
     </footer>
     
 
-
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript">
-        $('nav.menu-mobile > i').click(function(){
-            $(this).parent().find('ul:not(.menu-mobile)').slideToggle();
-
-        });
-    </script>
-    
-</body>
+    <script src="js/main.js"></script>
+ </body>
 </html>
