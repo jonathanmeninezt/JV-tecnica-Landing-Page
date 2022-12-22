@@ -648,6 +648,32 @@ footer h2{
         margin-top: 80px;
         color: white;
     }
+    footer{
+        width: 100%;
+        height: 750px;
+        background-color: rgb(29, 29, 29);
+        
+    }
+    
+    .end-page span{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gray;
+        margin-top: 20px;
+        text-align:start;
+       position: relative;
+       left: 45px; 
+       top: 60px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(163, 163, 163);
+        margin-top: 110px;
+    }
 }
 
 @media screen and (max-width:923px){
@@ -659,9 +685,6 @@ footer h2{
         border: rgb(8, 8, 106);
         text-align: center;
         vertical-align: center;
-        
-        
-    
     }
     
     .big-box .box2{
@@ -808,8 +831,8 @@ footer h2{
         width: 100%;
         left: 0px;
         top: 150px;
-        background-color: white;
-        border-top: 2px solid black;
+        background-color: rgb(31, 31, 31);
+        border-top: 2px solid rgb(16, 15, 15);
         display: block;
     
 }
@@ -819,6 +842,7 @@ footer h2{
         text-decoration: none;
         transition: 0.3s;
         display: block;
+        color: white;
         
 }
 
@@ -836,7 +860,7 @@ footer h2{
 
     nav.menu-mobile > i:hover{
         cursor: pointer;
-        color: white;
+        color: rgb(73, 66, 255);
     }
     .service-text h2{
         text-align: center;
@@ -897,10 +921,18 @@ footer h2{
        display: grid;
        grid-template-columns: 1fr 1fr;
        margin-left: 60px;
-          
+
+    }
+    section.imagen-jv{
+        width: 100%;
+        height: 700px;
+        background: url('../img/jvtecnica.jpg')center fixed;
+        background-size: 70% 70%;
+        background-repeat: no-repeat;
+       
+    }
 
 }
-
 @media screen and (max-width:758px){
     .container input{
         position: absolute;
