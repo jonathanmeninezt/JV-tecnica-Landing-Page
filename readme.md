@@ -38,7 +38,7 @@ O projeto **Landing Page JV Técnica** foi desenvolvido para um cliente que poss
 
 ## Aprendizado
 <h1></h1>
-<p>Obtive uma evolução utilizando o Flexbox, isso me ajudou a facilitar a criação de estruras para imagens e textos. Pratiquei ainda mais o modo de layout GRID na aplicação de colunas para o modo responsivo. Elaborei um menu mobile com uma função feita no JavaScript puro, com o comando de clique no ícone para abertura e fechamento do menu mobile.</p>
+<p>Obtive uma evolução utilizando o Flexbox, isso me ajudou a facilitar a criação de estruturas para imagens e textos. Pratiquei ainda mais o modo de layout GRID na aplicação de colunas para o modo responsivo. Elaborei um menu mobile com uma função feita no JavaScript puro, com o comando de clique no ícone para abertura e fechamento do menu mobile.</p>
 <br>
 <br>
 <br>
