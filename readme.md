@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/116603241/209247438-3c349693-4145-4ac2
 ## 📘 Sobre
 <h1></h1>
 
-O projeto **Landing Page JV Técnica** foi desenvolvido para um cliente que possuí uma empresa de manutenção em Lava e Seca da marca LG e Samsung. O objetivo desta página é capturar leads que vejam o seu anúncio no Google Ads e Facebook Busines e entram em contato através da LP.  <br>
+O projeto **Landing Page JV Técnica** foi desenvolvido para um cliente que possui uma empresa de manutenção em Lava e Seca da marca LG e Samsung. O objetivo desta página é capturar leads que vejam o seu anúncio no Google Ads e Facebook Busines e entram em contato através da LP.  <br>
 <br>
 <br>
 <br>
