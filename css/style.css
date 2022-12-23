@@ -514,11 +514,21 @@ footer{
 }
 
 
-footer img{
+footer #logo{
     width: 18em;
     height: 14em;
     margin-top: 100px;
     margin-left: 70px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+footer #logo.fade{
+    opacity: 0;
 }
 
 footer h2{

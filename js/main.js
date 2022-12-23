@@ -16,4 +16,7 @@ menuBar.addEventListener('click',()=>{
 //*******************************************//
 
 
-
+let logo = document.getElementById('#logo');
+document.getElementById('#logo').onMouseOver = function(){
+    logo.classList.toggle('fade');
+}
