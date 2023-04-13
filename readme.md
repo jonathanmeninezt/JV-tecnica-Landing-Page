@@ -23,22 +23,20 @@ O projeto **Landing Page JV Técnica** foi desenvolvido para um cliente que poss
 - HTML
 - CSS
 - JAVASCRIPT
+- JQery 
+
+<h1>Jv Técnica </h1>
 
 
-<br>
-<br>
-<br>
+
+
 
 ## Objetivo com o projeto:
 <h1></h1>
 <P>Criar uma página para captação de Leads através de anúncios de tráfego pago. O objetivo também era desenvolver uma página com o modo responsivo para todos os tamanhos de telas.</P>
 <br>
+<p>Empresa JV Técnica</p>
 <br>
-<br>
-
-## Aprendizado
-<h1></h1>
-<p>Obtive uma evolução utilizando o Flexbox, isso me ajudou a facilitar a criação de estruturas para imagens e textos. Pratiquei ainda mais o modo de layout GRID na aplicação de colunas para o modo responsivo. Elaborei um menu mobile com uma função feita no JavaScript puro, com o comando de clique no ícone para abertura e fechamento do menu mobile.</p>
 <br>
 <br>
 <br>
